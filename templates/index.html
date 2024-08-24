@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popcat Game</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="game-container">
+        <img id="popcat" src="https://assets.coingecko.com/coins/images/33760/large/image.jpg?1702964227" alt="Popcat" />
+
+        <p>Clicks: <span id="click-count">0</span></p>
+    </div>
+
+    <script src="{% static 'js/game.js' %}"></script>
+</body>
+</html>
